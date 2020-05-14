@@ -1,6 +1,6 @@
 # clj-jfx - A Clojure library for JavaFX
 
-[![Clojars Project](https://img.shields.io/clojars/v/clj-jfx.svg)](https://clojars.org/clj-jfx)
+[![Clojars Project](https://img.shields.io/clojars/v/clj-jfx.svg)](https://clojars.org/clj-jfx) [![License](https://img.shields.io/badge/License-EPL%202.0-blue.svg)](https://www.eclipse.org/legal/epl-v20.html)
 
 ## Usage
 
