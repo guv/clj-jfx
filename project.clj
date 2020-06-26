@@ -1,4 +1,4 @@
-(defproject clj-jfx "0.1.24"
+(defproject clj-jfx "0.1.25"
 
   :license {:name "Eclipse Public License v2.0"
             :url "http://www.eclipse.org/legal/epl-v20.html"}

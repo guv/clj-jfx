@@ -509,6 +509,9 @@
         selected-item-prop (props/selected-item-property cb)
         prev-observable-atom (atom nil)]
     (props/list-property-binding (props/items cb), choice-values-prop, :initialize :list)
+    (jfx/invalidation-listener! choice-values-prop
+      (fn [_]
+        (props/set selected-item-prop nil)))
     (doto (TableCellWrapper.
             (fn [^TableCell cell, value, empty?]
               (if empty?
